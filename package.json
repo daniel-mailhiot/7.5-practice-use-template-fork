@@ -1,0 +1,17 @@
+{
+  "name": "grand-azure-hotel-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test/ --exit"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.3.0",
+    "supertest": "^7.0.0"
+  }
+}
