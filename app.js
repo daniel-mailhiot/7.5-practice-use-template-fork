@@ -4,7 +4,7 @@ const app = express()
 app.use(express.json())
 
 const rooms = [
-  { id: 1, name: 'Standard Queen', type: 'standard', pricePerNight: 120, available: true },
+  { id: 1, name: 'Standard Queen', type: 'standard', },
   { id: 2, name: 'Standard Twin', type: 'standard', pricePerNight: 110, available: false },
   { id: 3, name: 'Deluxe King', type: 'deluxe', pricePerNight: 200, available: true },
   { id: 4, name: 'Deluxe Ocean View', type: 'deluxe', pricePerNight: 250, available: true },
